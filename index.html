@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/ISOTIPO AGB-01.png" type="icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Álvaro</title>
+  </head>
+  <body>
+    <header id="home">
+      <div class="header">
+        <nav class="navbar">
+          <ul class="navbar-menu">
+            <li class="navbar-item">
+              <a href="index.html"><img src="assets/ISOTIPO AGB-01.png" alt="logo Álvaro Barjola"/></a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#hero">Welcome</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="navbar-link" href="#sobremi">Sobre mí</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="navbar-link" href="#trabajos">Trabajos</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="navbar-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<!-- 1a SECCIÓN -->
+<main>
+  <section id="hero" class="section1">
+    <div class= "box-img">
+        <img src="./images/logo AGB -2.png" alt="Imagen decorativa logo AGB" />
+    </div>  
+    <h1 class="section-title"><span>Bienvenido <br>
+    </span> a mi portfolio</h1>
+    <p class="section-p">
+     ¡Encantado de que hallas llegado hasta aquí! Mi nombre es Álvaro González Barjola <span> soy graphic designer, full stack developer & Digital Marketing Specialist
+          </span>
+          <button href="#sobremi">Conóceme</button>
+        </p>
+  </section>
+  <!-- 2a SECCIÓN -->
+  <section id="sobremi" class="section2">
+      <h2 class="section-title2" color="$bgnavcolor"> Sobre mí</h2>
+      <p class="section-p2"> Lorem ipsum dolor sit amet consectetur adipiscing elit sem, dignissim dui dapibus volutpat feugiat nullam ornare. Per justo cubilia platea hac cras semper viverra tempor morbi curae, dictumst etiam luctus mollis blandit pretium vulputate dictum ac neque mus, himenaeos litora ad placerat eu facilisi et nullam taciti. Interdum iaculis quisque vitae erat turpis, ultricies tempor placerat mattis elementum fringilla, himenaeos blandit nibh enim integer, eros laoreet vulputate conubia.
+
+        Sociosqu posuere curae nibh natoque quis turpis morbi tincidunt faucibus elementum luctus donec suscipit, dapibus netus nunc quam tristique pharetra pellentesque vivamus commodo ut habitasse. Class primis nibh mus cubilia nec lacus nisl cras ad ac praesent semper, porta laoreet fusce magna lacinia bibendum felis sodales aliquet cursus. Erat faucibus primis magna cubilia urna quam consequat, cursus per accumsan curabitur ornare tortor enim, rutrum curae lectus massa cras morbi.</p>
+      <div class="box-img2">
+        <img src="images/letrasRecurso 2.png" alt="infografía servicios y conocimientos"/>
+      </div>
+  </section>
+   <!-- 3a SECCIÓN -->
+  <section id="trabajos">
+    <h2 class="section-title3"><span> algunos de mis<br>
+    </span>trabajos</h1>
+    <div class="section3">
+    <div class="item-a">
+      <img src="./images/BURST-DSN_Mesa de trabajo 1.jpg">
+    </div>
+    <div>
+      <img src="./images/NUEVA-EQUIPACION-POLO.jpg">
+    </div>
+    <div class="item-b">
+      <img src="./images/FURGO-1-VUELTA-A-EXTREMADURA.jpg">
+    </div>
+    <div>
+      <img src="./images/beher-1.jpeg">
+    </div>
+    <div class="item-c">
+      <img src="./images/BURST-1.png">
+    </div>
+    <div>
+      <img src="./images/ig-feed-vueltaex-5-dias.jpg">
+    </div>
+    <div>
+      <img src="./images/tetebarjolagaming.png">
+    </div>
+    <div class="item-d">
+      <img src="./images/portada fb 2021-2022.png">
+    </div>
+  </div>  
+  </section>
+
+     <!-- 4a SECCIÓN -->
+
+ <section class=section4 id="contacto" >
+   <div class="formulario_contacto">
+    <div class="formulario">      
+      <h2 class="titulos-form">Formulario de <br><span>contacto</span></h2>
+
+          <form action="submeter-formulario.php" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>      
+                <p>
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p> 
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" ></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span> Campos obligatorios.
+                </p>          
+            </form>
+   </div>
+ </section>
+
+ <footer class="footer">
+  <p class="footer-p"> Copyright Álvaro Barjola </p>
+ </footer>
+  </body>
+</html>

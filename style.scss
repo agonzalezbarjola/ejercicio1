@@ -1,0 +1,23 @@
+@import "./variables";
+@import "./navbar";
+@import "./section1";
+@import "./section2";
+@import "./section3";
+@import "./section4";
+@import "./footer";
+
+* {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right:0px ;
+}
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  color: $blackcolor1;
+  font-size: 14px;
+  font-family: "montserrat";
+
+  font-weight: normal;
+  background-color: $bgcolor;
+}

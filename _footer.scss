@@ -1,0 +1,13 @@
+.footer{
+background-color: $bgbrandcolor;
+border: none;
+clip-path: ellipse(60% 100% at center top);
+height: auto;
+min-height: 370px;
+
+p{
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+}

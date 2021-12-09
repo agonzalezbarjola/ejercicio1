@@ -1,0 +1,125 @@
+.section4{
+margin-top: 25px;
+background-color: $greycolor; 
+text-align: center;}
+
+
+.contact_form{  
+width: 460px; 
+height: auto;
+margin: 80px auto;
+border-radius: 10px;  
+padding-top: 30px;
+padding-bottom: 20px;  
+background-color: $bgnavcolor; 
+padding-left: 30px; 
+}
+
+
+input{
+background-color: $bgnavcolor; 
+width: 408px; 
+height: 40px; 
+border-radius: 5px;  
+border-style: solid; 
+border-width: 1px; 
+border-color: $brandcolor1; 
+margin-top: 10px;  
+padding-left: 10px;
+margin-bottom: 20px; 
+}
+
+
+textarea{
+background-color: $bgcolor; 
+width: 405px; 
+height: 150px; 
+border-radius: 5px;  
+border-style: solid; 
+border-width: 1px; 
+border-color: #ab4493; 
+margin-top: 10px;  
+padding-left: 10px;
+margin-bottom: 20px; 
+padding-top: 15px; 
+}
+
+
+
+
+
+
+button{
+height: 45px; 
+padding-left: 5px;
+padding-right: 5px;   
+margin-bottom: px; 
+margin-top: 10px;   
+text-transform: uppercase;
+background-color: $bgbrandcolor; 
+border-style: solid; 
+border-radius: 10px;  
+width: 200px;   
+cursor: pointer;
+}
+
+
+button p{
+    margin-top: 10px;
+color: #fff;
+font-weight: 600; 
+}
+
+
+span{
+color: #ab4493; 
+}
+
+
+.aviso{
+font-size: 13px;  
+color: #0e0e0e;  
+}
+
+
+.titulos-form{
+font-size: 75px;  
+font-weight: 900;
+text-align: letf; 
+padding: 25px; 
+color: $bgbrandcolor;
+text-transform: uppercase;
+line-height: 55px;
+span{
+    color:$blackcolorpure
+}
+}
+
+
+p{
+font-size: 14px; 
+color: $blackcolor1; 
+
+}
+
+
+::-webkit-input-placeholder {
+color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+outline:0;
+border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+outline:0;
+border: 1px solid #97d848;
+}

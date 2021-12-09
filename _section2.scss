@@ -1,0 +1,46 @@
+.section2{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    background: $bgbrandcolor;
+    align-items: center;
+    align-content: space-around;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   height: auto;
+}
+
+
+
+.section-title2{
+    color: $bgnavcolor;
+    font-weight: 900;
+    font-size: 75px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    line-height: 55px;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.section-p2 {
+    font-size: 15px;
+    margin:55px;
+    color: $bgcolor;
+    text-align: center;
+    align-items: center;
+    width: 450px;
+    height: 350px;
+    
+    
+}
+.box-img2{
+    justify-content: center;
+    contain: content;
+
+img{
+    height: 150px;
+}
+
+    
+}
